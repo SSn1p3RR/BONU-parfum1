@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="uz">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="BONU PARFUM — O'zbekistondagi eng noyob parfyumeriya va tilla taqinchoqlar do'koni. 100% original mahsulotlar, tez yetkazib berish.">
+    <meta name="description"
+        content="BONU PARFUM — O'zbekistondagi eng noyob parfyumeriya va tilla taqinchoqlar do'koni. 100% original mahsulotlar, tez yetkazib berish.">
     <meta name="keywords" content="parfum, atir, tilla, jewelry, bonu parfum, original parfyumeriya, uzbekistan">
     <meta name="author" content="Sobirova Sevinchbonu">
-    
+
     <!-- Open Graph / Social Sharing -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="BONU PARFUM | Hashamat va Go'zallik">
-    <meta property="og:description" content="O'zbekistondagi eng noyob parfyumeriya va tilla taqinchoqlar. 100% original, sertifikatlangan mahsulotlar.">
+    <meta property="og:description"
+        content="O'zbekistondagi eng noyob parfyumeriya va tilla taqinchoqlar. 100% original, sertifikatlangan mahsulotlar.">
     <meta property="og:image" content="./atirlar_jpg/photo_1_2026-04-04_12-37-11.jpg">
     <meta property="og:url" content="https://bonuparfum.uz">
     <meta name="twitter:card" content="summary_large_image">
-    
+
     <!-- Favicon -->
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>" type="image/svg+xml">
-    
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💎</text></svg>"
+        type="image/svg+xml">
+
     <title>BONU PARFUM | Hashamat va Go'zallik</title>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
     <style>
         :root {
             --bg-color: #0A0A0A;
@@ -39,7 +46,8 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            cursor: none; /* Custom cursor */
+            cursor: none;
+            /* Custom cursor */
         }
 
         body {
@@ -50,7 +58,11 @@
             scroll-behavior: smooth;
         }
 
-        h1, h2, h3, h4, .serif {
+        h1,
+        h2,
+        h3,
+        h4,
+        .serif {
             font-family: 'Playfair Display', serif;
         }
 
@@ -67,6 +79,7 @@
             box-shadow: 0 0 10px var(--accent-gold);
             transition: width 0.2s, height 0.2s;
         }
+
         .cursor-outline {
             width: 40px;
             height: 40px;
@@ -79,11 +92,15 @@
             transition: 0.1s;
         }
 
-        a, button, input, select {
+        a,
+        button,
+        input,
+        select {
             cursor: none;
         }
 
-        a:hover ~ .cursor-dot, button:hover ~ .cursor-dot {
+        a:hover~.cursor-dot,
+        button:hover~.cursor-dot {
             width: 12px;
             height: 12px;
         }
@@ -265,7 +282,7 @@
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            border: 1px solid rgba(255,255,255,0.05);
+            border: 1px solid rgba(255, 255, 255, 0.05);
             perspective: 1000px;
             transform-style: preserve-3d;
         }
@@ -298,7 +315,7 @@
             z-index: 2;
             font-size: 2.5rem;
             color: var(--accent-gold);
-            text-shadow: 0 4px 20px rgba(0,0,0,0.8);
+            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
             transition: all 0.4s ease;
         }
 
@@ -340,8 +357,9 @@
             align-items: center;
         }
 
-        select, input[type="text"] {
-            background: rgba(0,0,0,0.5);
+        select,
+        input[type="text"] {
+            background: rgba(0, 0, 0, 0.5);
             border: 1px solid var(--secondary-gold);
             color: var(--text-color);
             padding: 10px 20px;
@@ -351,7 +369,8 @@
             transition: 0.3s;
         }
 
-        select:focus, input[type="text"]:focus {
+        select:focus,
+        input[type="text"]:focus {
             box-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
         }
 
@@ -373,7 +392,7 @@
 
         .product-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0,0,0,0.6), 0 0 15px rgba(212, 175, 55, 0.1);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), 0 0 15px rgba(212, 175, 55, 0.1);
             border-color: rgba(212, 175, 55, 0.4);
         }
 
@@ -448,7 +467,8 @@
             transition: 0.3s;
         }
 
-        .page-btn.active, .page-btn:hover {
+        .page-btn.active,
+        .page-btn:hover {
             background: var(--accent-gold);
             color: #000;
             border-color: var(--accent-gold);
@@ -457,7 +477,7 @@
         /* FEATURES SECTION */
         .features {
             padding: 100px 5%;
-            background: linear-gradient(180deg, var(--bg-color), rgba(20,20,25,0.8));
+            background: linear-gradient(180deg, var(--bg-color), rgba(20, 20, 25, 0.8));
         }
 
         .features-grid {
@@ -559,13 +579,15 @@
         /* Animated gradient background */
         .hero-bg {
             position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            background: 
-                radial-gradient(ellipse 80% 60% at 50% -10%, rgba(212,175,55,0.2) 0%, transparent 50%),
-                radial-gradient(ellipse 60% 50% at 85% 80%, rgba(139,90,43,0.18) 0%, transparent 50%),
-                radial-gradient(ellipse 50% 50% at 15% 60%, rgba(180,140,60,0.12) 0%, transparent 50%),
-                radial-gradient(ellipse 40% 30% at 50% 50%, rgba(212,175,55,0.08) 0%, transparent 60%),
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(ellipse 80% 60% at 50% -10%, rgba(212, 175, 55, 0.2) 0%, transparent 50%),
+                radial-gradient(ellipse 60% 50% at 85% 80%, rgba(139, 90, 43, 0.18) 0%, transparent 50%),
+                radial-gradient(ellipse 50% 50% at 15% 60%, rgba(180, 140, 60, 0.12) 0%, transparent 50%),
+                radial-gradient(ellipse 40% 30% at 50% 50%, rgba(212, 175, 55, 0.08) 0%, transparent 60%),
                 linear-gradient(180deg, #0c0a06 0%, #100d08 40%, #0a0a0a 100%);
             z-index: 0;
         }
@@ -581,32 +603,47 @@
         }
 
         .hero-ring-1 {
-            width: 500px; height: 500px;
-            top: 50%; left: 50%;
+            width: 500px;
+            height: 500px;
+            top: 50%;
+            left: 50%;
             transform: translate(-50%, -50%);
             border-color: rgba(212, 175, 55, 0.1);
             animation-delay: 0s;
         }
 
         .hero-ring-2 {
-            width: 380px; height: 380px;
-            top: 50%; left: 50%;
+            width: 380px;
+            height: 380px;
+            top: 50%;
+            left: 50%;
             transform: translate(-50%, -50%);
             border-color: rgba(212, 175, 55, 0.15);
             animation-delay: 1s;
         }
 
         .hero-ring-3 {
-            width: 280px; height: 280px;
-            top: 50%; left: 50%;
+            width: 280px;
+            height: 280px;
+            top: 50%;
+            left: 50%;
             transform: translate(-50%, -50%);
             border-color: rgba(212, 175, 55, 0.08);
             animation-delay: 2s;
         }
 
         @keyframes ringPulse {
-            0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
-            50% { transform: translate(-50%, -50%) scale(1.1); opacity: 1; }
+
+            0%,
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 0.5;
+            }
+
+            50% {
+                transform: translate(-50%, -50%) scale(1.1);
+                opacity: 1;
+            }
         }
 
         /* Floating luxury items */
@@ -616,34 +653,108 @@
             z-index: 1;
             animation: floatItem 8s ease-in-out infinite;
             opacity: 0.5;
-            filter: drop-shadow(0 0 12px rgba(212,175,55,0.4));
+            filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.4));
             pointer-events: none;
         }
 
-        .float-1 { top: 12%; left: 8%; animation-delay: 0s; font-size: 2.8rem; }
-        .float-2 { top: 18%; right: 10%; animation-delay: 1.5s; font-size: 2.2rem; }
-        .float-3 { bottom: 22%; left: 10%; animation-delay: 3s; font-size: 2.4rem; }
-        .float-4 { bottom: 12%; right: 8%; animation-delay: 4.5s; font-size: 2.6rem; }
-        .float-5 { top: 35%; left: 4%; animation-delay: 2s; font-size: 2rem; }
-        .float-6 { top: 30%; right: 4%; animation-delay: 3.5s; font-size: 1.8rem; }
-        .float-7 { bottom: 30%; left: 18%; animation-delay: 5s; font-size: 2rem; }
-        .float-8 { top: 10%; left: 22%; animation-delay: 6s; font-size: 1.6rem; }
-        .float-9 { bottom: 18%; right: 18%; animation-delay: 1s; font-size: 1.8rem; }
-        .float-10 { top: 50%; right: 6%; animation-delay: 4s; font-size: 2.2rem; }
+        .float-1 {
+            top: 12%;
+            left: 8%;
+            animation-delay: 0s;
+            font-size: 2.8rem;
+        }
+
+        .float-2 {
+            top: 18%;
+            right: 10%;
+            animation-delay: 1.5s;
+            font-size: 2.2rem;
+        }
+
+        .float-3 {
+            bottom: 22%;
+            left: 10%;
+            animation-delay: 3s;
+            font-size: 2.4rem;
+        }
+
+        .float-4 {
+            bottom: 12%;
+            right: 8%;
+            animation-delay: 4.5s;
+            font-size: 2.6rem;
+        }
+
+        .float-5 {
+            top: 35%;
+            left: 4%;
+            animation-delay: 2s;
+            font-size: 2rem;
+        }
+
+        .float-6 {
+            top: 30%;
+            right: 4%;
+            animation-delay: 3.5s;
+            font-size: 1.8rem;
+        }
+
+        .float-7 {
+            bottom: 30%;
+            left: 18%;
+            animation-delay: 5s;
+            font-size: 2rem;
+        }
+
+        .float-8 {
+            top: 10%;
+            left: 22%;
+            animation-delay: 6s;
+            font-size: 1.6rem;
+        }
+
+        .float-9 {
+            bottom: 18%;
+            right: 18%;
+            animation-delay: 1s;
+            font-size: 1.8rem;
+        }
+
+        .float-10 {
+            top: 50%;
+            right: 6%;
+            animation-delay: 4s;
+            font-size: 2.2rem;
+        }
 
         @keyframes floatItem {
-            0%, 100% { transform: translateY(0) rotate(0deg); }
-            25% { transform: translateY(-18px) rotate(5deg); }
-            50% { transform: translateY(-8px) rotate(-3deg); }
-            75% { transform: translateY(-22px) rotate(3deg); }
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            25% {
+                transform: translateY(-18px) rotate(5deg);
+            }
+
+            50% {
+                transform: translateY(-8px) rotate(-3deg);
+            }
+
+            75% {
+                transform: translateY(-22px) rotate(3deg);
+            }
         }
 
         /* Light rays */
         .hero-rays {
             position: absolute;
-            top: -30%; left: 50%;
-            width: 250px; height: 400px;
-            background: linear-gradient(180deg, rgba(212,175,55,0.06) 0%, transparent 80%);
+            top: -30%;
+            left: 50%;
+            width: 250px;
+            height: 400px;
+            background: linear-gradient(180deg, rgba(212, 175, 55, 0.06) 0%, transparent 80%);
             transform: translateX(-50%) rotate(0deg);
             z-index: 0;
             animation: rayRotate 25s linear infinite;
@@ -651,19 +762,39 @@
             pointer-events: none;
         }
 
-        .hero-rays:nth-child(6) { animation-delay: -6s; width: 180px; opacity: 0.5; }
-        .hero-rays:nth-child(7) { animation-delay: -12s; width: 120px; opacity: 0.3; }
-        .hero-rays:nth-child(8) { animation-delay: -18s; width: 200px; opacity: 0.4; }
+        .hero-rays:nth-child(6) {
+            animation-delay: -6s;
+            width: 180px;
+            opacity: 0.5;
+        }
+
+        .hero-rays:nth-child(7) {
+            animation-delay: -12s;
+            width: 120px;
+            opacity: 0.3;
+        }
+
+        .hero-rays:nth-child(8) {
+            animation-delay: -18s;
+            width: 200px;
+            opacity: 0.4;
+        }
 
         @keyframes rayRotate {
-            from { transform: translateX(-50%) rotate(0deg); }
-            to { transform: translateX(-50%) rotate(360deg); }
+            from {
+                transform: translateX(-50%) rotate(0deg);
+            }
+
+            to {
+                transform: translateX(-50%) rotate(360deg);
+            }
         }
 
         /* Sparkle dots */
         .sparkle {
             position: absolute;
-            width: 4px; height: 4px;
+            width: 4px;
+            height: 4px;
             border-radius: 50%;
             background: var(--accent-gold);
             z-index: 1;
@@ -672,12 +803,25 @@
         }
 
         @keyframes sparkle {
-            0%, 100% { opacity: 0; transform: scale(0); }
-            50% { opacity: 1; transform: scale(1.2); box-shadow: 0 0 8px var(--accent-gold), 0 0 20px rgba(212,175,55,0.4); }
+
+            0%,
+            100% {
+                opacity: 0;
+                transform: scale(0);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scale(1.2);
+                box-shadow: 0 0 8px var(--accent-gold), 0 0 20px rgba(212, 175, 55, 0.4);
+            }
         }
 
         /* Hero content z-index */
-        .hero-logo, .hero-tagline, .hero-subtitle, .hero-btns {
+        .hero-logo,
+        .hero-tagline,
+        .hero-subtitle,
+        .hero-btns {
             position: relative;
             z-index: 5;
         }
@@ -689,7 +833,7 @@
             border-radius: 50%;
             object-fit: cover;
             border: 3px solid var(--accent-gold);
-            box-shadow: 
+            box-shadow:
                 0 0 50px rgba(212, 175, 55, 0.5),
                 0 0 100px rgba(212, 175, 55, 0.2),
                 inset 0 0 30px rgba(212, 175, 55, 0.1);
@@ -698,8 +842,15 @@
         }
 
         @keyframes logoFloat {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-12px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-12px);
+            }
         }
 
         .hero-tagline {
@@ -711,25 +862,51 @@
             color: var(--accent-gold);
             animation: fadeInUp 1.5s ease 0.3s both;
             font-family: 'Playfair Display', serif;
-            text-shadow: 0 0 30px rgba(212,175,55,0.4);
+            text-shadow: 0 0 30px rgba(212, 175, 55, 0.4);
         }
 
         .hero-subtitle {
             font-size: 0.9rem;
-            color: rgba(245,240,232,0.6);
+            color: rgba(245, 240, 232, 0.6);
             letter-spacing: 0.15em;
             margin-bottom: 40px;
             animation: fadeInUp 1.5s ease 0.5s both;
         }
 
         @media (max-width: 768px) {
-            .hero-logo { width: 150px; height: 150px; }
-            .hero-float { font-size: 1.2rem !important; opacity: 0.3; }
-            .hero-ring-1 { width: 300px; height: 300px; }
-            .hero-ring-2 { width: 230px; height: 230px; }
-            .hero-ring-3 { width: 170px; height: 170px; }
-            .hero-rays { display: none; }
-            .hero-tagline { font-size: 0.9rem; letter-spacing: 0.15em; }
+            .hero-logo {
+                width: 150px;
+                height: 150px;
+            }
+
+            .hero-float {
+                font-size: 1.2rem !important;
+                opacity: 0.3;
+            }
+
+            .hero-ring-1 {
+                width: 300px;
+                height: 300px;
+            }
+
+            .hero-ring-2 {
+                width: 230px;
+                height: 230px;
+            }
+
+            .hero-ring-3 {
+                width: 170px;
+                height: 170px;
+            }
+
+            .hero-rays {
+                display: none;
+            }
+
+            .hero-tagline {
+                font-size: 0.9rem;
+                letter-spacing: 0.15em;
+            }
         }
 
         /* Category Brand Logos */
@@ -778,12 +955,12 @@
         }
 
         .social-btn.ig {
-            background: linear-gradient(45deg, rgba(253,29,29,0.2), rgba(131,58,180,0.25), rgba(252,175,69,0.2));
+            background: linear-gradient(45deg, rgba(253, 29, 29, 0.2), rgba(131, 58, 180, 0.25), rgba(252, 175, 69, 0.2));
             border: 1px solid rgba(225, 48, 108, 0.5);
         }
 
         .social-btn.ig:hover {
-            background: linear-gradient(45deg, rgba(253,29,29,0.4), rgba(131,58,180,0.45), rgba(252,175,69,0.4));
+            background: linear-gradient(45deg, rgba(253, 29, 29, 0.4), rgba(131, 58, 180, 0.45), rgba(252, 175, 69, 0.4));
             transform: translateY(-2px);
         }
 
@@ -871,12 +1048,12 @@
         }
 
         .order-link.ig-link {
-            background: linear-gradient(45deg, rgba(253,29,29,0.2), rgba(131,58,180,0.25), rgba(252,175,69,0.2));
+            background: linear-gradient(45deg, rgba(253, 29, 29, 0.2), rgba(131, 58, 180, 0.25), rgba(252, 175, 69, 0.2));
             border: 1px solid rgba(225, 48, 108, 0.4);
         }
 
         .order-link.ig-link:hover {
-            background: linear-gradient(45deg, rgba(253,29,29,0.4), rgba(131,58,180,0.45), rgba(252,175,69,0.4));
+            background: linear-gradient(45deg, rgba(253, 29, 29, 0.4), rgba(131, 58, 180, 0.45), rgba(252, 175, 69, 0.4));
             transform: translateY(-2px);
             box-shadow: 0 8px 20px rgba(225, 48, 108, 0.25);
         }
@@ -939,7 +1116,7 @@
         }
 
         .footer-social-btn.ig {
-            background: linear-gradient(45deg, rgba(253,29,29,0.2), rgba(131,58,180,0.25), rgba(252,175,69,0.2));
+            background: linear-gradient(45deg, rgba(253, 29, 29, 0.2), rgba(131, 58, 180, 0.25), rgba(252, 175, 69, 0.2));
             border: 1px solid rgba(225, 48, 108, 0.4);
         }
 
@@ -954,9 +1131,18 @@
         }
 
         @media (max-width: 768px) {
-            .order-brands { grid-template-columns: 1fr; }
-            .footer-brands { grid-template-columns: 1fr; }
-            .category-socials { flex-direction: column; align-items: center; }
+            .order-brands {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-brands {
+                grid-template-columns: 1fr;
+            }
+
+            .category-socials {
+                flex-direction: column;
+                align-items: center;
+            }
         }
 
         /* Reviews Section */
@@ -1062,7 +1248,7 @@
         .review-form input,
         .review-form textarea {
             width: 100%;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0, 0, 0, 0.5);
             border: 1px solid var(--glass-border);
             color: var(--text-color);
             padding: 12px 18px;
@@ -1105,30 +1291,55 @@
         }
 
         .ig-btn:hover {
-            background: linear-gradient(45deg, rgba(253,29,29,0.3), rgba(131,58,180,0.35), rgba(252,175,69,0.3)) !important;
+            background: linear-gradient(45deg, rgba(253, 29, 29, 0.3), rgba(131, 58, 180, 0.35), rgba(252, 175, 69, 0.3)) !important;
             transform: translateY(-3px);
             box-shadow: 0 10px 20px rgba(225, 48, 108, 0.2);
         }
 
         @media (max-width: 768px) {
-            .reviews-grid { grid-template-columns: 1fr; }
-            .hero-logo { width: 160px; height: 160px; }
-            .form-row { flex-direction: column; }
+            .reviews-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-logo {
+                width: 160px;
+                height: 160px;
+            }
+
+            .form-row {
+                flex-direction: column;
+            }
         }
 
         @media (max-width: 1024px) {
-            .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+            .reviews-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
 
         /* Animations */
         @keyframes fadeInDown {
-            from { opacity: 0; transform: translateY(-30px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .reveal {
@@ -1144,29 +1355,70 @@
 
         /* Responsive */
         @media (max-width: 1024px) {
-            .products-grid { grid-template-columns: repeat(3, 1fr); }
-            .features-grid { grid-template-columns: repeat(2, 1fr); }
+            .products-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
 
         @media (max-width: 768px) {
-            .hero h1 { font-size: 3rem; }
-            .hero p { font-size: 1rem; }
-            .hero-btns { flex-direction: column; width: 100%; max-width: 300px; }
-            .categories { grid-template-columns: 1fr; }
-            .products-grid { grid-template-columns: repeat(2, 1fr); gap: 15px;}
-            .filters-panel { flex-direction: column; align-items: stretch; }
-            .cursor-dot, .cursor-outline { display: none; }
-            * { cursor: auto !important; }
-        }
-        
-        @media (max-width: 480px) {
-            .products-grid { grid-template-columns: 1fr; }
-            .features-grid { grid-template-columns: 1fr; }
-            .category-card { height: 250px; }
+            .hero h1 {
+                font-size: 3rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .hero-btns {
+                flex-direction: column;
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .categories {
+                grid-template-columns: 1fr;
+            }
+
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+
+            .filters-panel {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .cursor-dot,
+            .cursor-outline {
+                display: none;
+            }
+
+            * {
+                cursor: auto !important;
+            }
         }
 
+        @media (max-width: 480px) {
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .category-card {
+                height: 250px;
+            }
+        }
     </style>
 </head>
+
 <body>
 
     <div class="cursor-dot"></div>
@@ -1229,34 +1481,54 @@
 
     <!-- CATEGORIES -->
     <section class="categories reveal" id="categories">
-        <div class="category-card" onclick="setCategory('parfyum'); document.getElementById('products').scrollIntoView({behavior: 'smooth'})">
-            <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=1200&auto=format&fit=crop" alt="Parfum">
+        <div class="category-card"
+            onclick="setCategory('parfyum'); document.getElementById('products').scrollIntoView({behavior: 'smooth'})">
+            <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?q=80&w=1200&auto=format&fit=crop"
+                alt="Parfum">
             <div class="overlay"></div>
             <img src="./bonu_parfum_logo.jpg" alt="Bonu Parfum" class="category-brand-logo">
             <h3>💎 BONU PARFUM</h3>
             <div class="category-socials">
-                <a href="https://t.me/bonu_parfum_original" target="_blank" class="social-btn tg" onclick="event.stopPropagation()">
-                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+                <a href="https://t.me/bonu_parfum_original" target="_blank" class="social-btn tg"
+                    onclick="event.stopPropagation()">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+                    </svg>
                     Telegram
                 </a>
-                <a href="https://www.instagram.com/original_parfum_by_bonu" target="_blank" class="social-btn ig" onclick="event.stopPropagation()">
-                    <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                <a href="https://www.instagram.com/original_parfum_by_bonu" target="_blank" class="social-btn ig"
+                    onclick="event.stopPropagation()">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                    </svg>
                     Instagram
                 </a>
             </div>
         </div>
-        <div class="category-card" onclick="setCategory('taqinchoq'); document.getElementById('products').scrollIntoView({behavior: 'smooth'})">
-            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1200&auto=format&fit=crop" alt="Jewelry">
+        <div class="category-card"
+            onclick="setCategory('taqinchoq'); document.getElementById('products').scrollIntoView({behavior: 'smooth'})">
+            <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1200&auto=format&fit=crop"
+                alt="Jewelry">
             <div class="overlay"></div>
             <img src="./velora_logo.jpg" alt="Velora" class="category-brand-logo">
             <h3>👑 VELORA TAQINCHOQLARI</h3>
             <div class="category-socials">
-                <a href="https://t.me/Velora_by_bonu" target="_blank" class="social-btn tg" onclick="event.stopPropagation()">
-                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+                <a href="https://t.me/Velora_by_bonu" target="_blank" class="social-btn tg"
+                    onclick="event.stopPropagation()">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+                    </svg>
                     Telegram
                 </a>
-                <a href="https://www.instagram.com/velora_by_bonu" target="_blank" class="social-btn ig" onclick="event.stopPropagation()">
-                    <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                <a href="https://www.instagram.com/velora_by_bonu" target="_blank" class="social-btn ig"
+                    onclick="event.stopPropagation()">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                    </svg>
                     Instagram
                 </a>
             </div>
@@ -1266,7 +1538,7 @@
     <!-- PRODUCTS -->
     <section class="products-section reveal" id="products">
         <h2 class="section-title gold-text">Noyob To'plamlar</h2>
-        
+
         <div class="filters-panel">
             <div class="filter-group">
                 <select id="categoryFilter" onchange="filterProducts()">
@@ -1322,79 +1594,91 @@
         <div class="reviews-grid" id="reviewsGrid">
             <div class="review-card glass-card">
                 <div class="review-header">
-                    <img src="https://ui-avatars.com/api/?name=Dilnoza+K&background=D4AF37&color=0A0A0A&size=90&bold=true" alt="Dilnoza" class="review-avatar">
+                    <img src="https://ui-avatars.com/api/?name=Dilnoza+K&background=D4AF37&color=0A0A0A&size=90&bold=true"
+                        alt="Dilnoza" class="review-avatar">
                     <div>
                         <div class="review-name">Dilnoza K.</div>
                         <div class="review-date">2026-03-28</div>
                     </div>
                 </div>
                 <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">Juda yoqdi! Hidi uzoq vaqt saqlanadi, original ekanligi seziladi. Qadoqlash ham juda chiroyli edi. Rahmat! 🥰</p>
+                <p class="review-text">Juda yoqdi! Hidi uzoq vaqt saqlanadi, original ekanligi seziladi. Qadoqlash ham
+                    juda chiroyli edi. Rahmat! 🥰</p>
                 <div class="review-product">📦 Miss Dior Blooming Bouquet</div>
             </div>
 
             <div class="review-card glass-card">
                 <div class="review-header">
-                    <img src="https://ui-avatars.com/api/?name=Sardor+M&background=D4AF37&color=0A0A0A&size=90&bold=true" alt="Sardor" class="review-avatar">
+                    <img src="https://ui-avatars.com/api/?name=Sardor+M&background=D4AF37&color=0A0A0A&size=90&bold=true"
+                        alt="Sardor" class="review-avatar">
                     <div>
                         <div class="review-name">Sardor M.</div>
                         <div class="review-date">2026-03-25</div>
                     </div>
                 </div>
                 <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">Turmush o'rtog'imga sovg'a qildim, juda xursand bo'ldi! YSL set ajoyib ko'rinadi. Keyingi safar ham albatta buyurtma beraman.</p>
+                <p class="review-text">Turmush o'rtog'imga sovg'a qildim, juda xursand bo'ldi! YSL set ajoyib ko'rinadi.
+                    Keyingi safar ham albatta buyurtma beraman.</p>
                 <div class="review-product">📦 YSL Deep Love Makeup Set</div>
             </div>
 
             <div class="review-card glass-card">
                 <div class="review-header">
-                    <img src="https://ui-avatars.com/api/?name=Madina+R&background=D4AF37&color=0A0A0A&size=90&bold=true" alt="Madina" class="review-avatar">
+                    <img src="https://ui-avatars.com/api/?name=Madina+R&background=D4AF37&color=0A0A0A&size=90&bold=true"
+                        alt="Madina" class="review-avatar">
                     <div>
                         <div class="review-name">Madina R.</div>
                         <div class="review-date">2026-03-20</div>
                     </div>
                 </div>
                 <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">Tilla uzuk juda chiroyli! Sifati a'lo darajada. Yetkazib berish ham tez bo'ldi. Tavsiya qilaman! 💎</p>
+                <p class="review-text">Tilla uzuk juda chiroyli! Sifati a'lo darajada. Yetkazib berish ham tez bo'ldi.
+                    Tavsiya qilaman! 💎</p>
                 <div class="review-product">📦 Velora Gold Ring Collection</div>
             </div>
 
             <div class="review-card glass-card">
                 <div class="review-header">
-                    <img src="https://ui-avatars.com/api/?name=Aziza+T&background=D4AF37&color=0A0A0A&size=90&bold=true" alt="Aziza" class="review-avatar">
+                    <img src="https://ui-avatars.com/api/?name=Aziza+T&background=D4AF37&color=0A0A0A&size=90&bold=true"
+                        alt="Aziza" class="review-avatar">
                     <div>
                         <div class="review-name">Aziza T.</div>
                         <div class="review-date">2026-03-15</div>
                     </div>
                 </div>
                 <div class="review-stars">⭐⭐⭐⭐</div>
-                <p class="review-text">Chanel Coco Mademoiselle parfumini oldim. Hidi juda yoqimli va uzoq turadi. Narxi ham qulay.</p>
+                <p class="review-text">Chanel Coco Mademoiselle parfumini oldim. Hidi juda yoqimli va uzoq turadi. Narxi
+                    ham qulay.</p>
                 <div class="review-product">📦 Chanel Coco Mademoiselle</div>
             </div>
 
             <div class="review-card glass-card">
                 <div class="review-header">
-                    <img src="https://ui-avatars.com/api/?name=Jasur+B&background=D4AF37&color=0A0A0A&size=90&bold=true" alt="Jasur" class="review-avatar">
+                    <img src="https://ui-avatars.com/api/?name=Jasur+B&background=D4AF37&color=0A0A0A&size=90&bold=true"
+                        alt="Jasur" class="review-avatar">
                     <div>
                         <div class="review-name">Jasur B.</div>
                         <div class="review-date">2026-03-10</div>
                     </div>
                 </div>
                 <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">Birinchi marta buyurtma berdim va juda mamnunman. Original parfum ekan, hidi do'konda ko'rganimday. Admin ham juda yaxshi xizmat ko'rsatdi 👍</p>
+                <p class="review-text">Birinchi marta buyurtma berdim va juda mamnunman. Original parfum ekan, hidi
+                    do'konda ko'rganimday. Admin ham juda yaxshi xizmat ko'rsatdi 👍</p>
                 <div class="review-product">📦 Eros Versace</div>
             </div>
 
             <div class="review-card glass-card">
                 <div class="review-header">
-                    <img src="https://ui-avatars.com/api/?name=Nilufar+S&background=D4AF37&color=0A0A0A&size=90&bold=true" alt="Nilufar" class="review-avatar">
+                    <img src="https://ui-avatars.com/api/?name=Nilufar+S&background=D4AF37&color=0A0A0A&size=90&bold=true"
+                        alt="Nilufar" class="review-avatar">
                     <div>
                         <div class="review-name">Nilufar S.</div>
                         <div class="review-date">2026-03-05</div>
                     </div>
                 </div>
                 <div class="review-stars">⭐⭐⭐⭐⭐</div>
-                <p class="review-text">Gulf Orchid setini oldim, narxi arzon lekin sifati zo'r! Bu do'konni barchaga tavsiya qilaman 🌸</p>
+                <p class="review-text">Gulf Orchid setini oldim, narxi arzon lekin sifati zo'r! Bu do'konni barchaga
+                    tavsiya qilaman 🌸</p>
                 <div class="review-product">📦 Gulf Orchid Shimmer Set</div>
             </div>
         </div>
@@ -1421,7 +1705,8 @@
     <!-- BUYURTMA BERISH SECTION -->
     <section class="order-section reveal" id="order">
         <h2 class="section-title gold-text">🛒 Buyurtma Berish</h2>
-        <p style="color: rgba(245,240,232,0.6); max-width: 600px; margin: 0 auto;">Quyidagi brendlardan birini tanlang va Telegram yoki Instagram orqali buyurtma bering</p>
+        <p style="color: rgba(245,240,232,0.6); max-width: 600px; margin: 0 auto;">Quyidagi brendlardan birini tanlang
+            va Telegram yoki Instagram orqali buyurtma bering</p>
 
         <div class="order-brands">
             <!-- BONU PARFUM -->
@@ -1431,11 +1716,18 @@
                 <p class="order-brand-desc">Original parfyumeriya — dunyoning eng mashhur brendlari</p>
                 <div class="order-links">
                     <a href="https://t.me/bonu_parfum_original" target="_blank" class="order-link tg-link">
-                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+                        </svg>
                         Telegram orqali buyurtma
                     </a>
-                    <a href="https://www.instagram.com/original_parfum_by_bonu" target="_blank" class="order-link ig-link">
-                        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                    <a href="https://www.instagram.com/original_parfum_by_bonu" target="_blank"
+                        class="order-link ig-link">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg>
                         Instagram orqali buyurtma
                     </a>
                 </div>
@@ -1448,11 +1740,17 @@
                 <p class="order-brand-desc">Hashamatli tilla taqinchoqlar — noyob dizayn</p>
                 <div class="order-links">
                     <a href="https://t.me/Velora_by_bonu" target="_blank" class="order-link tg-link">
-                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+                        </svg>
                         Telegram orqali buyurtma
                     </a>
                     <a href="https://www.instagram.com/velora_by_bonu" target="_blank" class="order-link ig-link">
-                        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg>
                         Instagram orqali buyurtma
                     </a>
                 </div>
@@ -1463,7 +1761,9 @@
     <!-- FOOTER -->
     <footer>
         <div class="footer-content reveal">
-            <h3 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 5px;">Bizning Brendlar</h3>
+            <h3
+                style="color: var(--accent-gold); font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 5px;">
+                Bizning Brendlar</h3>
 
             <div class="footer-brands">
                 <!-- BONU PARFUM -->
@@ -1471,11 +1771,19 @@
                     <img src="./bonu_parfum_logo.jpg" alt="Bonu Parfum" class="footer-brand-logo">
                     <div class="footer-brand-name serif">BONU PARFUM</div>
                     <div class="footer-social-links">
-                        <a href="https://t.me/bonu_parfum_original" target="_blank" class="footer-social-btn tg" title="Telegram">
-                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+                        <a href="https://t.me/bonu_parfum_original" target="_blank" class="footer-social-btn tg"
+                            title="Telegram">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+                            </svg>
                         </a>
-                        <a href="https://www.instagram.com/original_parfum_by_bonu" target="_blank" class="footer-social-btn ig" title="Instagram">
-                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        <a href="https://www.instagram.com/original_parfum_by_bonu" target="_blank"
+                            class="footer-social-btn ig" title="Instagram">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
                         </a>
                     </div>
                 </div>
@@ -1485,17 +1793,26 @@
                     <img src="./velora_logo.jpg" alt="Velora" class="footer-brand-logo">
                     <div class="footer-brand-name serif">VELORA</div>
                     <div class="footer-social-links">
-                        <a href="https://t.me/Velora_by_bonu" target="_blank" class="footer-social-btn tg" title="Telegram">
-                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+                        <a href="https://t.me/Velora_by_bonu" target="_blank" class="footer-social-btn tg"
+                            title="Telegram">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+                            </svg>
                         </a>
-                        <a href="https://www.instagram.com/velora_by_bonu" target="_blank" class="footer-social-btn ig" title="Instagram">
-                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        <a href="https://www.instagram.com/velora_by_bonu" target="_blank" class="footer-social-btn ig"
+                            title="Instagram">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg>
                         </a>
                     </div>
                 </div>
             </div>
 
-            <a href="https://t.me/Mirbonuu" target="_blank" class="tg-btn" style="max-width: 400px; margin: 0 auto 20px; background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+            <a href="https://t.me/Mirbonuu" target="_blank" class="tg-btn"
+                style="max-width: 400px; margin: 0 auto 20px; background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
                 👤 Admin: @Mirbonuu
             </a>
 
@@ -1514,10 +1831,10 @@
         window.addEventListener('mousemove', (e) => {
             const posX = e.clientX;
             const posY = e.clientY;
-            
+
             cursorDot.style.left = `${posX}px`;
             cursorDot.style.top = `${posY}px`;
-            
+
             cursorOutline.animate({
                 left: `${posX}px`,
                 top: `${posY}px`
@@ -1527,14 +1844,14 @@
         // --- PARTICLES BACKGROUND ---
         const canvas = document.getElementById('particlesCanvas');
         const ctx = canvas.getContext('2d');
-        
+
         let width, height, particles;
-        
+
         function initCanvas() {
             width = canvas.width = window.innerWidth;
             height = canvas.height = window.innerHeight;
             particles = [];
-            for(let i=0; i<100; i++) {
+            for (let i = 0; i < 100; i++) {
                 particles.push({
                     x: Math.random() * width,
                     y: Math.random() * height,
@@ -1544,26 +1861,26 @@
                 });
             }
         }
-        
+
         function drawParticles() {
             ctx.clearRect(0, 0, width, height);
             ctx.fillStyle = '#D4AF37';
-            
+
             particles.forEach(p => {
                 ctx.globalAlpha = p.alpha;
                 ctx.beginPath();
                 ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
                 ctx.fill();
-                
+
                 p.y += p.speedY;
-                if(p.y < 0) {
+                if (p.y < 0) {
                     p.y = height;
                     p.x = Math.random() * width;
                 }
             });
             requestAnimationFrame(drawParticles);
         }
-        
+
         window.addEventListener('resize', initCanvas);
         initCanvas();
         drawParticles();
@@ -1585,8 +1902,8 @@
 
         // --- ORDER FUNCTION ---
         function buyurtma(nom) {
-            const xabar = 
-`Assalomu alaykum, Sevinchbonu!
+            const xabar =
+                `Assalomu alaykum, Sevinchbonu!
 Buyurtma bermoqchiman:
 
 🛍 Mahsulot: ${nom}
@@ -1621,7 +1938,7 @@ Buyurtma bermoqchiman:
             "photo_20_2026-04-04_12-37-11.jpg",
             "photo_21_2026-04-04_12-37-11.jpg"
         ];
-        const jewelryImages = Array.from({length: 33}, (_, i) => `photo_${i+1}_2026-04-04_12-15-17.jpg`);
+        const jewelryImages = Array.from({ length: 33 }, (_, i) => `photo_${i + 1}_2026-04-04_12-15-17.jpg`);
         const perfumeVideos = [
             "025506fc6669adc06206a202e1b72d0f.mp4",
             "0a269c86f057089c12317bc28e122a0a_720w.mp4",
@@ -1648,11 +1965,11 @@ Buyurtma bermoqchiman:
 
         // Add Perfume Images
         perfumeImages.forEach((img, i) => {
-            allProducts.push({ 
-                id: idCounter++, 
-                name: `BONU Parfum #${String(i+1).padStart(3,'0')}`, 
-                category: 'parfyum', 
-                catLabel: 'Parfyumeriya', 
+            allProducts.push({
+                id: idCounter++,
+                name: `BONU Parfum #${String(i + 1).padStart(3, '0')}`,
+                category: 'parfyum',
+                catLabel: 'Parfyumeriya',
                 mediaURL: `./atirlar_jpg/${img}`,
                 mediaType: 'image'
             });
@@ -1660,11 +1977,11 @@ Buyurtma bermoqchiman:
 
         // Add Perfume Videos
         perfumeVideos.forEach((vid, i) => {
-            allProducts.push({ 
-                id: idCounter++, 
-                name: `BONU Parfum Video #${String(i+1).padStart(3,'0')}`, 
-                category: 'parfyum', 
-                catLabel: 'Parfyumeriya', 
+            allProducts.push({
+                id: idCounter++,
+                name: `BONU Parfum Video #${String(i + 1).padStart(3, '0')}`,
+                category: 'parfyum',
+                catLabel: 'Parfyumeriya',
                 mediaURL: `./atirlar_video/${vid}`,
                 mediaType: 'video'
             });
@@ -1672,11 +1989,11 @@ Buyurtma bermoqchiman:
 
         // Add Jewelry Images
         jewelryImages.forEach((img, i) => {
-            allProducts.push({ 
-                id: idCounter++, 
-                name: `BONU Jewelry #${String(i+1).padStart(3,'0')}`, 
-                category: 'taqinchoq', 
-                catLabel: 'Tilla Taqinchoq', 
+            allProducts.push({
+                id: idCounter++,
+                name: `BONU Jewelry #${String(i + 1).padStart(3, '0')}`,
+                category: 'taqinchoq',
+                catLabel: 'Tilla Taqinchoq',
                 mediaURL: `./image_tilla/${img}`,
                 mediaType: 'image'
             });
@@ -1689,7 +2006,7 @@ Buyurtma bermoqchiman:
 
         function renderProducts() {
             grid.innerHTML = '';
-            
+
             const start = (currentPage - 1) * perPage;
             const end = start + perPage;
             const currentItems = filteredProducts.slice(start, end);
@@ -1697,8 +2014,8 @@ Buyurtma bermoqchiman:
             currentItems.forEach(prod => {
                 const card = document.createElement('div');
                 card.className = 'product-card glass-card';
-                
-                let mediaHTML = prod.mediaType === 'video' 
+
+                let mediaHTML = prod.mediaType === 'video'
                     ? `<video class="product-img lazy-video" data-src="${prod.mediaURL}" loop muted playsinline poster="" style="object-fit: cover;"></video>`
                     : `<img src="${prod.mediaURL}" alt="${prod.name}" class="product-img" loading="lazy">`;
 
@@ -1711,7 +2028,7 @@ Buyurtma bermoqchiman:
                     <h3 class="product-title serif">${prod.name}</h3>
                     <button class="product-btn btn-order" data-name="${prod.name}">Buyurtma berish</button>
                 `;
-                
+
                 // Add event listener
                 const btn = card.querySelector('.btn-order');
                 btn.addEventListener('click', (e) => {
@@ -1726,12 +2043,12 @@ Buyurtma bermoqchiman:
         function renderPagination() {
             pagination.innerHTML = '';
             const totalPages = Math.ceil(filteredProducts.length / perPage);
-            
-            if(totalPages <= 1) return;
+
+            if (totalPages <= 1) return;
 
             // Simple logic: Show first, prev, current, next, last
-            let pages = new Set([1, totalPages, currentPage, currentPage-1, currentPage+1]);
-            pages = Array.from(pages).filter(p => p > 0 && p <= totalPages).sort((a,b)=>a-b);
+            let pages = new Set([1, totalPages, currentPage, currentPage - 1, currentPage + 1]);
+            pages = Array.from(pages).filter(p => p > 0 && p <= totalPages).sort((a, b) => a - b);
 
             pages.forEach(p => {
                 const btn = document.createElement('button');
@@ -1740,7 +2057,7 @@ Buyurtma bermoqchiman:
                 btn.onclick = () => {
                     currentPage = p;
                     renderProducts();
-                    document.getElementById('products').scrollIntoView({behavior: 'smooth'});
+                    document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
                 };
                 pagination.appendChild(btn);
             });
@@ -1774,7 +2091,7 @@ Buyurtma bermoqchiman:
                     if (video.dataset.src && !video.src) {
                         video.src = video.dataset.src;
                     }
-                    video.play().catch(() => {});
+                    video.play().catch(() => { });
                 } else {
                     video.pause();
                 }
@@ -1792,7 +2109,7 @@ Buyurtma bermoqchiman:
 
         // Patch renderProducts to observe videos after rendering
         const __origRender = renderProducts;
-        renderProducts = function() {
+        renderProducts = function () {
             __origRender();
             observeVideos();
         };
@@ -1895,4 +2212,5 @@ Buyurtma bermoqchiman:
 
     </script>
 </body>
+
 </html>
